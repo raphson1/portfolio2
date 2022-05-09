@@ -86,6 +86,7 @@
     margin-right: 15px;
     word-spacing: 5px;
     background-color: var(--mainColor);
+    height: fit-content;
     color: var(--blkColor);
 
  }
@@ -236,10 +237,12 @@
      }
      .navbar ul li{
          display: block;
+         text-align: center;
+         margin: 3px;
      }
      main{
         margin-left: 0px ;
-        float: center;
+        text-align: center;
      }
      .ledCal{
         display: flex;
@@ -249,6 +252,17 @@
         margin: 5px;
      }
 
+     .sub-header{
+         text-align: center;
+         margin-top: auto;
+          
+     }
+     .sub-header h3{
+         float: none;
+         text-align: center;
+         margin: auto;
+     }
+     
 
  }
 
