@@ -192,7 +192,6 @@
  footer  a{
     color: black;
     margin: 20px;
-    text-decoration: none;
     font-size: 23px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -244,14 +243,7 @@
         margin-left: 0px ;
         text-align: center;
      }
-     .ledCal{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        justify-content: center;
-        margin: 5px;
-     }
-
+     
      .sub-header{
          text-align: center;
          margin-top: auto;
@@ -262,6 +254,48 @@
          text-align: center;
          margin: auto;
      }
+
+     .split{
+         display: flex;
+         flex-direction: column;
+         margin: 5px;
+     }
+     .work-content #right{
+         width: 100%;
+         margin-left: 0px;
+
+     }
+
+     .ledCal {
+         display: flex;
+         flex-direction: column;
+         
+     }
+     .ledCal  #calculator{
+         width: 100%;
+         margin-left: 0px;
+     }
+     .ledCal  #ledWall{
+         width: 100%;
+         margin-left: 0px;
+     }
+
+     footer {
+         display: flex;
+         flex-direction: column;
+         height: max-content;
+         width: 100%;
+         margin: 0;
+     }
+     footer a{
+         display: flex;
+         flex-direction: column;
+         text-decoration: none;
+         align-items: center;
+         margin: 3px;
+
+     }
+
      
 
  }
