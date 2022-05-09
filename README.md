@@ -1,6 +1,6 @@
 ## my personel website
 
-This is my personel Website.
+This is my personel Website, this website is resposive on mobile screen 
 it has my contact information
 * Linkedln
 * Instagram
